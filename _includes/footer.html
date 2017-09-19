@@ -1,35 +1,19 @@
-<footer class="site-footer">
-
-
-      <div class="footer-col-2">
-
-<div class="col-md-4" align="center">
-        <ul class="contact-list">
-          <li>Designer</li>
-          <p>Educational technologist<br>pier@pierluisvona.it</p>
-        <!--  <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>!-->
-        </ul>
-
-</div>
-
-<div class="col-md-4" align="center">
-          <p>
-            <a href="https://www.linkedin.com/in/pierluigi-vona-30415812b/" target="_blank">linkedin</a><br>
-            <a href="https://www.behance.net/pierluisvona" target="_blank">behance</a><br>
-            <a href="https://www.instagram.com/pierluisvona/" target="_blank">instagram</a>
-
-          </p>
-</div>
-
-<div class="col-md-4" align="center">
-
-        <p class="text">sept2017 <br> built with <a href="https://jekyllrb.com" target="_blank">Jekyll</a><br>
-        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">
-            <img src="{{ site.baseurl }}img/cc.svg" width="100px"></p>
-        </a>
-      </div>
-
-</div>
-
-
+<footer class="section--footer">
+  <div class="container container--content">
+    <div>
+      <a href="{{ site.baseurl }}humans.txt">Hand-crafted</a> by <a href="{{ site.baseurl }}about/">Your Name</a>
+    </div>
+    <ul class="socialAccountList">
+      <li><a href="http://twitter.com/{{ site.author.twitter }}" class="socialAccount socialAccount--twitter" target="_blank"></a></li>
+      <li><a href="http://facebook.com/{{ site.author.facebook }}" class="socialAccount socialAccount--facebook" target="_blank"></a></li>
+      <li><a href="http://www.linkedin.com/in/{{ site.author.linkedin }}" class="socialAccount socialAccount--linkedin" target="_blank"></a></li>
+      <li><a href="http://dribbble.com/{{ site.author.dribble }}" class="socialAccount socialAccount--dribbble" target="_blank"></a></li>
+      <li><a href="https://www.pinterest.com/{{ site.author.pinterest }}/" class="socialAccount socialAccount--pinterest" target="_blank"></a></li>
+      <li><a href="http://www.kiva.org/lender/{{ site.author.kiva }}" class="socialAccount socialAccount--kiva" target="_blank"></a></li>
+      <li><a href="{{ site.rss }}" class="socialAccount socialAccount--rss" target="_blank"></a></li>
+    </ul>
+    <div>
+      © 2015 All Rights Reserved. Powered by the <a href="https://github.com/vincentchan/mickey" target="_blank">Mickey theme</a> for Jekyll.
+    </div>
+  </div>
 </footer>
