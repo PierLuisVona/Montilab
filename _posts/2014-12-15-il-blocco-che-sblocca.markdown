@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "A Life of Walt Disney"
+title:  "Il blocco che sblocca"
 date:   2014-12-15 01:00:00
-last_modified_at:  2014-12-15 01:00:00
+last_modified_at:  2017-09-19 01:00:00
 excerpt: "Walter Elias Disney was an American entrepreneur, cartoonist, animator, voice actor, and film producer. As a prominent..."
 categories: history
 tags:  disney
