@@ -1,50 +1,21 @@
+# Site Settings
 
-# Syntax highlighting
+paginate:            5
+
+# Build settings
+markdown:            kramdown
 highlighter:         rouge
+permalink:           none
+plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed]
 
-# Permalinks
-permalink:           /Montilab
+sass:
+  sass_dir: assets/css
+  style: :nested
 
-# Setup
-timezone:            Europe/Rome
-locale:              your locale language # eg. en_us
-name:				         Montilab
-title:               Montilab
-tagline:             workshop di progettazione partecipata
-description:         'description'
-url:                 site url
-rss:                 rss feed url
-baseurl:             '/'
-baseurl_posts_img:   '/assets/images/posts/'
-baseurl_featured_img: '/assets/images/hero/'
-baseurl_featured_thumbnail: '/assets/images/thumbnail/'
-baseurl_javascripts: '/assets/javascripts/'
-icon:                your site icon path # /assets/img/icon.png [best 300px X 300px]
-disqus:              disqus_shortname # get it on https://disqus.com/admin/
+# Customise feed settings (uncommenting following two fields to customise feed title and description)
+#title:		     "Lagrange-Custom"
+#description:	     "a minimalist Jekyll theme-Custom"
 
-author:
-  name:           	 Pierluis Vona
-  url:            	 Pierluisvona.it
-  facebook:          username
-  twitter:           username
-  google_plus:       username
-  linkedin:          username
-  dribbble:          username
-  pinterest:         username
-  kiva:              username
-
-fb_admins:           your facebook profile id
-fb_appid:            your facebook app id
-
-# Server
-destination:      	 ./_site
-exclude:          	 [".editorconfig", ".gitignore", "bower.json", "composer.json", "CONTRIBUTING.md", "CNAME", "LICENSE", "Gruntfile.js", "package.json", "node_modules", "README.md", "sass", "haml"]
-port:             	 9001
-
-defaults:
-  -
-    scope:
-      path: "_posts"
-      type: "posts"
-    values:
-      layout: "default"
+# RSS 2.0 can be used instead of Atom by uncommenting following two lines
+#feed:
+#   path:	     rss-feed.xml

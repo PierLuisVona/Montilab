@@ -1,93 +1,79 @@
 ---
 layout: default
 ---
-<article class="postWrapper">
-  <section class="section--first is-darkBackgrounded u-table">
-    <div class="section-backgroundImage">
 
-      {% if page.image.feature %}
-        <img class="post-featuredImage" src="{{ page.image.feature | prepend: site.baseurl_featured_img }}" style="
-        {% if page.image.topPosition %}
-          top:{{ page.image.topPosition }};
-        {% endif %}
-        " alt="">
-      {% endif %}
+<div class="page-content">
+  <h1>
+    {{ page.title }}
+  </h1>
 
-    </div>
-    <div class="section-gradient
-    {% if page.bgGradientOpacity == "darker" %}
-      section-gradient--darker
-    {% elsif page.bgGradientOpacity == "lighter" %}
-      section-gradient--lighter
+  <span class="post-date">
+    Written on
+    {% assign d = page.date | date: "%-d"  %}
+    {{ page.date | date: "%B" }}
+    {% case d %}
+      {% when '1' or '21' or '31' %}{{ d }}st
+      {% when '2' or '22' %}{{ d }}nd
+      {% when '3' or '23' %}{{ d }}rd
+      {% else %}{{ d }}th{% endcase %},
+    {{ page.date | date: "%Y" }}
+    by
+    {% if page.author %}
+      {{ page.author }}
+    {% else %}
+      {{ site.data.authors.primary.name }}
     {% endif %}
-    "></div>
-    <div class="section-title is-darkBackgrounded u-tableCell u-verticalAlignMiddle">
-      <div class="container">
-        <h2>{{ page.title }}</h2>
-        <div class="postMeta-wrapper">
-          <ul class="postMeta">
-            <li class="postMeta-datetime">
-              <time datetime="{{ page.date }}">
-                {{ page.date | date_to_string }}
-              </time>
-            </li>
-            <li class="postMeta-author">
-              By {{ site.author.name }}
-            </li>
-            <li class="postMeta-tags">
-              {{ page.categories }}
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="section--last">
-    <div class="container container--content">
-      <div class="content-body">
+  </span>
 
-        {{ content }}
+  {% if page.image.feature %}
+    <div class="featured-image">
+      <img src="{{ site.github.url }}/assets/img/{{ page.image.feature }}">
+    </div>
+  {% endif %}
 
-      </div>
+  <article>
+    {{ content }}
+  </article>
+
+  <div class="post-share">
+    <div class="post-date">Feel free to share!</div>
+    <div class="sharing-icons">
+      <a href="https://twitter.com/intent/tweet?text={{ page.title }}&amp;url={{ site.github.url }}{{ page.url }}&amp;via={{ site.data.authors.primary.twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.github.url }}{{ page.url }}&amp;title={{ page.title }}" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      <a href="https://plus.google.com/share?url={{ site.github.url }}{{ page.url }}" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
     </div>
-    <hr class="u-clearHr"/>
-    <hr class="u-clearHr"/>
-    <hr/>
-    <div class="container container--content">
-      <div class="content-body">
-        {% include subscribe.html %}
-        {% include comments.html %}
-      </div>
-    </div>
-  </section>
-  <footer class="postFooter">
-    {% if page.previous.url %}
-      <section class="section--prePost is-darkBackgrounded u-table">
-        <div class="section-backgroundImage section-backgroundImage--previousPage">
-          <img class="post-featuredImage"
-          {% if page.previous.image.feature %}
-            src="{{ page.previous.image.feature | prepend: site.baseurl_featured_img }}"
+  </div>
+
+  <div class="related">
+    <h2>You may also enjoy...</h2>
+    {% assign listed_posts_urls = page.url | split: ' ' %}
+    <ul class="related-posts">
+      {% for tag in page.tags %}
+        {% for mypost in site.tags[tag] limit:2 %}
+          {% if listed_posts_urls contains mypost.url %}
+          {% else %}
+            <li>
+              <h3>
+                <a href="{{ site.github.url }}{{ mypost.url }}">
+                  <div class="related-thumbnail">
+                    <img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ mypost.image.feature }}">
+                  </div>
+                  <div class="related-title">
+                    {{ mypost.title }}
+                  </div>
+                  <!--<small>{{ mypost.date | date: "%B %-d, %Y" }}</small>-->
+                </a>
+              </h3>
+            </li>
+            {% assign listed_posts_urls = listed_posts_urls | push: mypost.url %}
           {% endif %}
-          style="top:0" alt="">
-        </div>
-        <div class="section-gradient
-        {% if page.previous.bgGradientOpacity == "darker" %}
-          section-gradient--darker
-        {% elsif page.previous.bgGradientOpacity == "lighter" %}
-          section-gradient--lighter
-        {% endif %}
-        "></div>
-        <div class="section-title u-tableCell u-verticalAlignMiddle">
-          <div class="container">
-            <h4>Next story:</h4>
-            <a class="prev" href="{{page.previous.url}}">
-              <h2>{{page.previous.title}}</h2>
-            </a>
-          </div>
-        </div>
-      </section>
-    {% endif %}
-  </footer>
-</article>
+        {% endfor %}
+      {% endfor %}
+    </ul>
+  </div>
 
-{% include modal.html %}
+  {% if site.data.settings.disqus.comments %}
+    {% include disqus.html %}
+  {% endif %}
+
+</div>
