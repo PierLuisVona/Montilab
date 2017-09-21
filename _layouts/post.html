@@ -1,93 +1,31 @@
 ---
 layout: default
 ---
-<article class="postWrapper">
-  <section class="section--first is-darkBackgrounded u-table">
-    <div class="section-backgroundImage">
 
-      {% if page.image.feature %}
-        <img class="post-featuredImage" src="{{ page.image.feature | prepend: site.baseurl_featured_img }}" style="
-        {% if page.image.topPosition %}
-          top:{{ page.image.topPosition }};
-        {% endif %}
-        " alt="">
-      {% endif %}
+{% include wrap.html %}
 
-    </div>
-    <div class="section-gradient
-    {% if page.bgGradientOpacity == "darker" %}
-      section-gradient--darker
-    {% elsif page.bgGradientOpacity == "lighter" %}
-      section-gradient--lighter
-    {% endif %}
-    "></div>
-    <div class="section-title is-darkBackgrounded u-tableCell u-verticalAlignMiddle">
-      <div class="container">
-        <h2>{{ page.title }}</h2>
-        <div class="postMeta-wrapper">
-          <ul class="postMeta">
-            <li class="postMeta-datetime">
-              <time datetime="{{ page.date }}">
-                {{ page.date | date_to_string }}
-              </time>
-            </li>
-            <li class="postMeta-author">
-              By {{ site.author.name }}
-            </li>
-            <li class="postMeta-tags">
-              {{ page.categories }}
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="section--last">
-    <div class="container container--content">
-      <div class="content-body">
+<div class="container mtb">
+    <div class="row">
+        <! -- SINGLE POST -->
+        <div class="col-lg-8">
+            <! -- Blog Post  -->
+            <p><img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.img }}"></p>
+            <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
+            <p><csmall>{{ page.date | date: "%b %-d, %Y" }}. | By: {{ page.author }}</csmall></p>
+              
+            {{ content }}
 
-        {{ content }}
+            <div class="spacing"></div>
+            <!-- <h6>SHARE:</h6>
+            <p class="share">
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-tumblr"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>		 		
+            </p> -->
+        </div><! --/col-lg-8 -->
+        
+        {% include sidebar.html %}
 
-      </div>
-    </div>
-    <hr class="u-clearHr"/>
-    <hr class="u-clearHr"/>
-    <hr/>
-    <div class="container container--content">
-      <div class="content-body">
-        {% include subscribe.html %}
-        {% include comments.html %}
-      </div>
-    </div>
-  </section>
-  <footer class="postFooter">
-    {% if page.previous.url %}
-      <section class="section--prePost is-darkBackgrounded u-table">
-        <div class="section-backgroundImage section-backgroundImage--previousPage">
-          <img class="post-featuredImage"
-          {% if page.previous.image.feature %}
-            src="{{ page.previous.image.feature | prepend: site.baseurl_featured_img }}"
-          {% endif %}
-          style="top:0" alt="">
-        </div>
-        <div class="section-gradient
-        {% if page.previous.bgGradientOpacity == "darker" %}
-          section-gradient--darker
-        {% elsif page.previous.bgGradientOpacity == "lighter" %}
-          section-gradient--lighter
-        {% endif %}
-        "></div>
-        <div class="section-title u-tableCell u-verticalAlignMiddle">
-          <div class="container">
-            <h4>Next story:</h4>
-            <a class="prev" href="{{page.previous.url}}">
-              <h2>{{page.previous.title}}</h2>
-            </a>
-          </div>
-        </div>
-      </section>
-    {% endif %}
-  </footer>
-</article>
-
-{% include modal.html %}
+    </div><! --/row -->
+</div><! --/container -->

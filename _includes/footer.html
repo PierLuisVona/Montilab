@@ -1,19 +1,32 @@
-<footer class="section--footer">
-  <div class="container container--content">
-    <div>
-      <a href="{{ site.baseurl }}humans.txt">Hand-crafted</a> by <a href="{{ site.baseurl }}about/">Your Name</a>
-    </div>
-    <ul class="socialAccountList">
-      <li><a href="http://twitter.com/{{ site.author.twitter }}" class="socialAccount socialAccount--twitter" target="_blank"></a></li>
-      <li><a href="http://facebook.com/{{ site.author.facebook }}" class="socialAccount socialAccount--facebook" target="_blank"></a></li>
-      <li><a href="http://www.linkedin.com/in/{{ site.author.linkedin }}" class="socialAccount socialAccount--linkedin" target="_blank"></a></li>
-      <li><a href="http://dribbble.com/{{ site.author.dribble }}" class="socialAccount socialAccount--dribbble" target="_blank"></a></li>
-      <li><a href="https://www.pinterest.com/{{ site.author.pinterest }}/" class="socialAccount socialAccount--pinterest" target="_blank"></a></li>
-      <li><a href="http://www.kiva.org/lender/{{ site.author.kiva }}" class="socialAccount socialAccount--kiva" target="_blank"></a></li>
-      <li><a href="{{ site.rss }}" class="socialAccount socialAccount--rss" target="_blank"></a></li>
-    </ul>
-    <div>
-      © 2015 All Rights Reserved. Powered by the <a href="https://github.com/vincentchan/mickey" target="_blank">Mickey theme</a> for Jekyll.
-    </div>
-  </div>
-</footer>
+<div id="footerwrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <h4>About</h4>
+                <div class="hline-w"></div>
+                <p>{{ site.about }}</p>
+            </div>
+            <div class="col-lg-4">
+                <h4>Social Links</h4>
+                <div class="hline-w"></div>
+                <p>
+                    {% for network in site.social %}
+                        <a href="{{ network.url }}" class="btn-social btn-outline">
+                          <i class="fa fa-{{ network.title }}" aria-hidden="true"></i>
+                          <span class="sr-only">{{network.title}}</span>
+                        </a>
+                    {% endfor %}
+                </p>
+            </div>
+            <div class="col-lg-4">
+                <h4>Our Bunker</h4>
+                <div class="hline-w"></div>
+                <p>
+                    {% for line in site.address.first.lines %}
+                        {{ line }} <br>
+                    {% endfor %}
+                </p>
+            </div>
+        </div><! --/row -->
+    </div><! --/container -->
+</div><! --/footerwrap -->
