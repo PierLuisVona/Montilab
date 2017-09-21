@@ -1,82 +1,131 @@
-Solid. A Bootstrap theme for Jekyll.
-============
-![Screenshot](https://st4ple.github.io/solid-jekyll/assets/img/browser.png)
+# Mickey
 
-This is a [Jekyll](http://jekyllrb.com/) port of the [Solid theme](http://www.blacktie.co/2014/05/solid-multipurpose-theme/) by [blacktie.co](http://www.blacktie.co/). Visit the [live demo](https://st4ple.github.io/solid-jekyll/) for a preview. 
+Mickey is a minimal one-column, responsive theme for [Jekyll](http://jekyllrb.com).
 
-##Usage
-This theme can be customized, built and published straight from GitHub, thanks to [GitHub Pages](https://pages.github.com/). A local installation of Jekyll isn't even necessary!
+It's inspired by [Hyde](http://hyde.getpoole.com), [Medium](http://medium.com), and [Squarespace](http://squarespace.com).
 
-[Fork this repository](https://github.com/st4ple/solid-jekyll/fork) to get started. 
-####Customize  
-Most general settings and data like site name, colors, address, etc. can be configured and changed right in the main config file: `/_config.yml`
-The content of the Home page can be changed here: `/home.html`
-The content of the About page can be changed here: `/about.html`
-The content of the Portfolio page can be changed here:`/portfolio.html`
-The content of the Contact page can be changed here:`/contact.html`
-####Add content  
-Delete the demo content and publish your own content.
-#####Blog post
-Create a Blog post by creating a file called `yyyy-mm-dd-name-of-post-like-this.markdown` in the `/_posts/blog/` directory with the following template:
-```markdown
----
-layout: post          #important: don't change this
-title: "Name of post like this"
-date: yyyy-mm-dd hh:mm:ss
-author: Name
-categories:
-- blog                #important: leave this here
-- category1
-- category2
-- ...
-img: post01.jpg       #place image (850x450) with this name in /assets/img/blog/
-thumb: thumb01.jpg    #place thumbnail (70x70) with this name in /assets/img/blog/thumbs/
----
-This text will appear in the excerpt "post preview" on the Blog page that lists all the posts.
-<!--more-->
-This text will not be shown in the excerpt because it is after the excerpt separator.
+![Mickey screenshots](/assets/images/demo.png)
+
+See Mickey in action with [the demo site](http://vincentchan.github.io/mickey) or [my personal blog](http://aneverendingdream.com).
+
+## Contents
+
+- [Installation](#installation)
+- [Options](#options)
+  - [Post front matter](#post-front-matter)
+  - [Identity](#identity)
+  - [Typography](#typography)
+  - [Images](#images)
+- [Development](#development)
+- [Author](#author)
+- [License](#license)
+
+## Installation
+
+Mickey requires [Jekyll](http://jekyllrb.com/) 2.x. and [Gulp](http://gulpjs.com/) for workflow automation.
+
+Make sure to run `gem update jekyll` if you aren’t on the latest version or `gem install jekyll` if this is your first time installing it.
+
+If you want to use Mickey, please follow these steps:
+
+1. Fork the [Mickey](https://github.com/vincentchan/mickey) repo.
+2. Clone the repo you just forked and rename it.
+3. Run `npm install` to install the dependencies for the theme contained in `package.json`
+4. Update `_config.yml` with your own info and replace demo posts and pages with your own. Full details below.
+
+## Options
+
+Mickey includes some customizable options:
+
+### Post front matter
+
+By default, we use the following:
+
 ```
-#####Project post
-Create a Project post to go in your Portfolio by creating a file called `yyyy-mm-dd-name-of-the-project.markdown` in the `/_posts/project/` directory with the following template:
-```markdown
 ---
-layout: project       #important: don't change this
-title:  "Name of the project"
-date: yyyy-mm-dd hh:mm:ss
-author: Name
-categories:
-- project             #important: leave this here
-img: portfolio_10.jpg #place image (600x450) with this name in /assets/img/project/
-thumb: thumb02.jpg
-carousel:
-- single01.jpg        #place image (1280x600) with this name in /assets/img/project/carousel/
-- single02.jpg  
-- ...
-client: Company XY
-website: http://www.internet.com
+layout:           post
+title:            "your post title"
+date:             2015-02-11T13:04:19+05:45 # XML Schema Date/Time
+last_modified_at: 2015-03-15T05:20:00+05:45 # last page modified date/time
+excerpt:          "for meta description" # Optional for overwriting content excerpt
+categories:       your post categories # ["category1"] - best is to have one category in a post
+tags:             your post tags # ["tag1", "tag2", "tag3"] - you can have several post tags
+image:
+  feature: your post featured image file name # image.jpg, suggested size:  2000x700px
+  topPosition: 0px # top position for featured image if needed
+bgContrast: dark # Featured image contrast
+bgGradientOpacity: darker # darker or lighter - control featured image opacity
 ---
-####This is a heading
-This is a regular paragraph. Write as much as you like.
 ```
-#####Question entry
-Create a Question entry (that is listed in the Frequently Asked section on the Home page) in this directory by creating a file called `yyyy-mm-dd-do-i-have-a-question.markdown` in the `/_posts/project/` directory with the following template:
-```markdown
----
-layout: question
-title:  "Do I have a question?"
-date: yyyy-mm-dd hh:mm:ss
-author: First Last
-categories:
-- question            #important: leave this here
----
-####Can I use this theme for my website?
-Of course you can!
+
+### Identity
+
+To replace logos with your own, simply update the following files in `assets/images/`:
+
+- `logo-white.svg`
+- `logo-black.svg`
+- `logo-text-white.svg`
+- `logo-text-black.svg`
+
+### Typography
+
+Vertical rhythm and spacing are mostly handled by [typebase.css](http://devinhunt.github.io/typebase.css/). If you want to change any settings related to typography (e.g. fonts, type scale...etc), please do it in `_scss/_typography.scss`
+
+#### Blockquote
+
+We have two types of blockquote design:
+
+```html
+// For large featured quote
+<blockquote class="largeQuote">...</blockquote>
+
+// For normal quote
+// Use 'u--startsWithDoubleQuote' class only when the quote starts with a double quote
+<blockquote class="u--startsWithDoubleQuote"></blockquote>
 ```
-####Publish
-To publish with [GitHub Pages](https://pages.github.com/), simply create a branch called `gh-pages`in your repository. GitHub will build your site automatically and publish it at `http://yourusername.github.io/repositoryname/`.  
-If there are problems with loading assets like CSS files and images, make sure that the `baseurl` in the `_config.yml`is set correctly (it should say `/repositoryname`).
 
-If you want to host your website somewhere else than GitHub (or just would like to customize and build your site locally), please check out the [Jekyll documentation](http://jekyllrb.com/). 
+#### Hanging quotes
 
-##License
-This theme is licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
+If a paragraph starts with a quotation market, please add the following to support [hanging quotes](https://en.wikipedia.org/wiki/Hanging_punctuation):
+
+```html
+<p class="u--startsWithDoubleQuote">
+...
+</p>
+```
+
+### Images
+
+To maintain vertical rhythm and spacing, I suggest using the following CSS class (e.g. `img--5xLeading`...`img--16xLeading`) to control the image height:
+
+```html
+<div class="img img--fullContainer img--14xLeading" style="background-image: url();"></div>
+```
+
+You can reference `_scss/_images.scss` for details.
+
+## Development
+
+Mickey has two branches, but only one is used for active development.
+
+- `master` for development.  **All pull requests should be submitted against `master`.**
+- `gh-pages` for our hosted landing page. **Please avoid using this branch.**
+
+During development, simply run `gulp` in terminal and it will compile the jekyll site, compile Sass, create post thumbnails, launch BrowserSync & watch files for changes and recompile.
+
+Source Sass files are located in `_scss/`, included into `main.scss`, and compile to `assets/css/main.css`.
+
+Post thumbnails are automatically resized via Gulp's image resize package, and moved to `assets/images/thumbnails`. Any featured images you put in `assets/images/hero` will be automatically created
+
+## Author
+
+**Vincent Chan**
+- <https://github.com/vincentchan>
+- <https://twitter.com/vincentchan>
+
+
+## License
+
+Open sourced under the [MIT license](LICENSE.md).
+
+**Disclaimer: This Jekyll theme is not affiliated with Disney. Obviously :)**
