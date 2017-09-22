@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Montilab'14 - Bookcrossing"
+title: "'14 - Bookcrossing"
 author: "Plv"
 categories: sample
 tags: [sample]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Montilab'16 - Hackaton edition"
+title: "'16 - Hackaton Edition"
 author: "Plv"
 categories: sample
 tags: [sample]

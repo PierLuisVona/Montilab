@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Montilab'15 - Green Edition"
+title: "'15 - Green Edition"
 author: "Plv"
 categories: documentation
 tags: [documentation,sample]
