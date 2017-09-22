@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Welcome to Millennial!"
-author: "Paul Le"
+title: "Montilab'15 - Green Edition"
+author: "Plv"
 categories: documentation
 tags: [documentation,sample]
 image:
@@ -12,19 +12,19 @@ Millennial is a minimalist Jekyll theme. The purpose of this theme is to provide
 
 ### Getting Started
 
-[Installation Guide]({{ site.github.url }}{% post_url 2016-12-12-Installation-Guide %}): getting started with installing Millennial, whether you are completely new to using Jekyll, or simply just migrating to a new Jekyll theme.
+[Installation Guide]: getting started with installing Millennial, whether you are completely new to using Jekyll, or simply just migrating to a new Jekyll theme.
 
 ### Using Millennial
 
-[Working With Jekyll]({{ site.github.url }}{% post_url 2016-11-11-Working-With-Jekyll %}): how to use Jekyll to create your own site.
+[Working With Jekyll]: how to use Jekyll to create your own site.
 
-[Working With Millennial]({{ site.github.url }}{% post_url 2016-10-10-Working-With-Millennial %}): information on features specific to this Jekyll theme.
+[Working With Millennial]: information on features specific to this Jekyll theme.
 
 ### Example Content
 
-[Text and Formatting]({{ site.github.url }}{% post_url 2016-09-09-Text-Formatting %})
+[Text and Formatting]
 
-[Math and Code Formatting]({{ site.github.url }}{% post_url 2016-08-08-Math-and-Code-Formatting %})
+[Math and Code Formatting]
 
 ### Questions?
 
