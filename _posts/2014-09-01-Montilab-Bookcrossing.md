@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "'14 - Bookcrossing"
+title: "2014<br>BOOKCROSSING"
 author: "Plv"
 categories: sample
 tags: [sample]

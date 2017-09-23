@@ -6,9 +6,9 @@ title: Home
 {% for post in paginator.posts %}
 
 <article>
-  <a href="{{ site.github.url }}{{ post.url }}">
+  <a href="{{ site.github.url }}{{ post.url }}" style="text-decoration: none">
     <div class="featured-posts" {% if post.image.feature %}style="background-image:url({{ site.github.url }}/assets/img/{{ post.image.feature }})"{% endif %}>
-      <h2><span>{{ post.title }}</span></h2>
+ <div class="texto">{{post.title}}</div>
     </div>
   </a>
 </article>
@@ -17,10 +17,24 @@ title: Home
 
 <style>
 
-article:hover {
+article:hover  {
     opacity: 0.5;
     filter: alpha(opacity=50);
 }
+
+article .texto {
+text-align: center;
+visibility: hidden;
+font-size: 80px;
+padding-top: 8%;
+text-decoration: none;
+
+}
+
+article:hover .texto {
+  visibility: visible;
+}
+
 </style>
 
 

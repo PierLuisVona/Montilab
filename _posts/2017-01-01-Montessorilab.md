@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "'17 - MontessoriLab"
+title: "2017<br>MONTESSORILAB"
 author: "Plv"
 categories: documentation
 tags: [documentation,sample]

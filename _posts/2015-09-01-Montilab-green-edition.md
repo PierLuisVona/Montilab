@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "'15 - Green Edition"
+title: "2015<br>GREEN EDITION"
 author: "Plv"
 categories: documentation
 tags: [documentation,sample]

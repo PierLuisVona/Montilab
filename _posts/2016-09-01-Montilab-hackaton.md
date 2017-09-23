@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "'16 - Hackaton Edition"
+title: "2016<br>HACKATON STYLE"
 author: "Plv"
 categories: sample
 tags: [sample]
