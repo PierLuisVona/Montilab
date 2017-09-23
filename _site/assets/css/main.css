@@ -241,6 +241,7 @@ blockquote p {
   .related-thumbnail {
     width: 95vw; } }
 .site-header {
+  z-index: 100;
   min-height: 56px;
   width: 1100px;
   position: fixed;

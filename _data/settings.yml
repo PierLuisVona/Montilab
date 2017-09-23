@@ -8,12 +8,9 @@ disqus:
   disqus_shortname: 'millennial-3'
 
 menu:
-- {name: 'Interesting Facts', file: 'facts.html'}
-- {name: 'Learning Resources', file: 'resources.html'}
-- {name: 'Sample Posts', file: 'sample-posts.html'}
-- {name: 'Documentation', file: 'documentation.html'}
-- {name: 'About', file: 'about.html'}
-- {name: 'Contact', file: 'contact.html'}
+- {name: 'Storia del progetto', file: 'story.html'}
+- {name: 'Tutor', file: 'tutor.html'}
+- {name: 'Techlab.tl', file: 'contact.html'}
 
 social:
 #- {icon: 'twitter', link: 'https://twitter.com/paululele'}
