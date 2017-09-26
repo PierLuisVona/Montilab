@@ -26,6 +26,16 @@ As always, Jekyll offers support for GitHub Flavored Markdown, which allows you 
 
 > Nature uses only the longest threads to weave her patterns, so that each small piece of her fabric reveals the organization of the entire tapestry.
 
+### Img
+
+```
+![assets/img/arctic-1.jpg](200*200)
+```
+
+![eccoci]({{ site.github.url }}/assets/img/arctic-1.jpg){:class="img-responsive"}
+
+
+
 ### Code
 
 ```js

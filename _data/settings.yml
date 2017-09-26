@@ -10,7 +10,6 @@ disqus:
 menu:
 - {name: 'Storia del progetto', file: 'story.html'}
 - {name: 'Tutor', file: 'tutor.html'}
-- {name: 'Techlab.tl', file: 'contact.html'}
 
 social:
 #- {icon: 'twitter', link: 'https://twitter.com/paululele'}
