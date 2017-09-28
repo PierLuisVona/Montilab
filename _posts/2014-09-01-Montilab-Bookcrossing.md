@@ -1,14 +1,13 @@
 ---
 layout: post
 title: "2014<br>BOOKCROSSING"
-author: "Plv"
+author: "Riccardo Massarotto, Edoardo ed Enrico Miravalle"
 categories: sample
 tags: [sample]
 image:
   feature: bookcrossing.jpg
 ---
 >Abbiamo creato spazi di Bookcrossing al Liceo Monti, e ci siamo divertiti parecchio :)
-Riccardo Massarotto, Edoardo ed Enrico Miravalle
 
 
 
