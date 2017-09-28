@@ -34,30 +34,26 @@ var c = document.getElementsByTagName("script")[0];
 c.parentNode.insertBefore(cp, c); })(); </script><noscript><span>New Gallery 2017/9/28</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 665</span><span>height</span><span> 315</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 670</span><span>height</span><span> 333</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 692</span><span>height</span><span> 352</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 751</span><span>height</span><span> 400</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 718</span><span>height</span><span> 344</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 677</span><span>height</span><span> 323</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 686</span><span>height</span><span> 360</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 746</span><span>height</span><span> 381</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 733</span><span>height</span><span> 381</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 731</span><span>height</span><span> 352</span></noscript>
 
 
-
-
-
-
-
 <br><br>
 I risultati di questa progettazione partecipata sono stati due interventi di arredo urbano:
 - La trasformazione di una rotonda in un grafico a torta, che rappresentasse con diverse specie floreali le modalità di spostamento casa-scuola degli studenti (raccolti con il questionario online)
+![eccoci]({{ site.github.url }}/assets/img/2017-09-2817.22.22.png){:class="img-responsive"}
+
 <br><br>
 - Un logo ed uno slogan circolare da apporre sulla circonferenza di una seconda rotonda
-
-![eccoci]({{ site.github.url }}/assets/img/logo_blocco.png){:class="img-responsive"}
-
+<div id="cp_widget_7e19d1bb-aca1-41ff-8513-12c7f2a1d1f8">...</div><script type="text/javascript">
+var cpo = []; cpo["_object"] ="cp_widget_7e19d1bb-aca1-41ff-8513-12c7f2a1d1f8"; cpo["_fid"] = "AMPAYEeyXdxT";
+var _cpmp = _cpmp || []; _cpmp.push(cpo);
+(function() { var cp = document.createElement("script"); cp.type = "text/javascript";
+cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
+var c = document.getElementsByTagName("script")[0];
+c.parentNode.insertBefore(cp, c); })(); </script><noscript><span>New Gallery 2017/9/28</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 3543</span><span>height</span><span> 3543</span></noscript>
 
 <br>
-
-Questi risultati sono stati portati dagli studenti del MontessoriLab al Comune di Chieri, all’attenzione dei consiglieri Gaspardo Moro e Rainato che hanno sposato il progetto e deciso di collaborare con il Techlab e il MontessoriLab nel finanziamento dei due interventi.
+Questi risultati sono stati portati dagli studenti del MontessoriLab al <b>Comune di Chieri</b>, all’attenzione dei consiglieri Gaspardo Moro e Rainato che hanno sposato il progetto e deciso di collaborare con il Techlab e il MontessoriLab nel finanziamento dei due interventi.
 
 ![eccoci]({{ site.github.url }}/assets/img/2017-06-2821.41.10.jpeg){:class="img-responsive"}
 
-
-
-<br><br>
-
-Per concludere il progetto, a settembre 2017 gli studenti hanno presentato il loro progetto a tutti i loro compagni del Liceo Vittone e dell’Istituto Vittone nell’auditorium.
+Per concludere il progetto, a settembre 2017 gli studenti hanno presentato il loro progetto a tutti i loro compagni del Liceo Monti e dell’Istituto Vittone nell’auditorium.
 
 ![eccoci]({{ site.github.url }}/assets/img/IMG_2223.jpg){:class="img-responsive"}
