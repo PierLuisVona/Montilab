@@ -19,7 +19,7 @@ Dopodiché abbiamo il gruppo ha riflettuto insieme sulla propria <b>relazione co
 Parallelamente, da un tavolo comunale sulla mobilità abbiamo saputo del progetto sperimentale della chiusura della strada per trovare una soluzione a questo stesso problema.
 <br><br>
 
-#### Il gruppo di lavoro si è allora diviso in due.
+### Il gruppo di lavoro si è allora diviso in due.
 
 <br>
 Uno dedicato alla scrittura di un [questionario online](https://docs.google.com/forms/d/1ALHiqddneTL9qo-18atGfXr7OsMGANWe7rGvKGhumHI/edit#responses) diffuso a tutti gli studenti, genitori e docenti dove si chiedevano le modalità di trasporto per recarsi a scuola e le prime impressioni sul progetto comunale.
@@ -36,20 +36,23 @@ c.parentNode.insertBefore(cp, c); })(); </script><noscript><span>New Gallery 201
 
 <br><br>
 I risultati di questa progettazione partecipata sono stati due interventi di arredo urbano:
-- La trasformazione di una rotonda in un grafico a torta, che rappresentasse con diverse specie floreali le modalità di spostamento casa-scuola degli studenti (raccolti con il questionario online)
+
+La trasformazione di una rotonda in un grafico a torta, che rappresentasse con diverse specie floreali le modalità di spostamento casa-scuola degli studenti (raccolti con il questionario online):
+
 ![eccoci]({{ site.github.url }}/assets/img/2017-09-2817.22.22.png){:class="img-responsive"}
 
 <br><br>
-- Un logo ed uno slogan circolare da apporre sulla circonferenza di una seconda rotonda
+
+Un logo ed uno slogan circolare da apporre sulla circonferenza di una seconda rotonda:
 
 ![eccoci]({{ site.github.url }}/assets/img/logo_blocco.png){:class="img-responsive"}
 ![eccoci]({{ site.github.url }}/assets/img/ezgif.com-video-to-gif-2.gif){:class="img-responsive"}
 
 <br>
-Questi risultati sono stati portati dagli studenti del MontessoriLab al <b>Comune di Chieri</b>, all’attenzione dei consiglieri Gaspardo Moro e Rainato che hanno sposato il progetto e deciso di collaborare con il Techlab e il MontessoriLab nel finanziamento dei due interventi.
+Questi risultati sono stati portati dagli studenti del MontessoriLab al <b>Comune di Chieri</b>, all’attenzione dell' assesore Massimo Gaspardo Moro che ha sposato il progetto e deciso di collaborare con il Techlab e il MontessoriLab nel finanziamento dei due interventi.
 
 ![eccoci]({{ site.github.url }}/assets/img/2017-06-2821.41.10.jpeg){:class="img-responsive"}
 
-Per concludere il progetto, a settembre 2017 gli studenti hanno presentato il loro progetto a tutti i loro compagni del Liceo Monti e dell’Istituto Vittone nell’auditorium.
+Per concludere il progetto, a settembre 2017 gli studenti hanno presentato il loro lavoro a tutti i compagni del Liceo Monti e dell’Istituto Vittone in occasione della presentazione, da parte dei consiglieri comunali, del piano di mobilità sostenibile in sperimentazione presso i due istituti.
 
 ![eccoci]({{ site.github.url }}/assets/img/IMG_2223.jpg){:class="img-responsive"}
