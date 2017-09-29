@@ -240,6 +240,10 @@ blockquote p {
 @media (max-width: 600px) {
   .related-thumbnail {
     width: 95vw; } }
+.img-responsive {
+  max-width: 100%;
+  height: auto; }
+
 .site-header {
   z-index: 100;
   min-height: 56px;
