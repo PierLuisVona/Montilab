@@ -14,7 +14,7 @@ sass:
 
 # Customise feed settings (uncommenting following two fields to customise feed title and description)
 title:		     "MontiLab"
-description:	     "workshop di progettazione partecipata"
+description:	 "workshop di progettazione partecipata"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
