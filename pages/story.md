@@ -2,7 +2,7 @@
 layout: misc
 title:
 ---
-![maura]({{ site.github.url }}/assets/img/MAURA.jpg){:class="img-responsive"}
+![maura]({{ site.github.url }}/assets/img/MAURA.JPG){:class="img-responsive"}
 
 È marzo 2014,<br><br>
 la professoressa Maura Tosco, dal Liceo Augusto Monti di Chieri, ha deciso già da tempo di avviare un'attività di Bookcrossing (un libero scambio di libri) all'interno dell'atrio del Liceo.<br>
