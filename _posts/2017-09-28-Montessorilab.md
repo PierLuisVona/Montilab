@@ -49,7 +49,7 @@ Un logo ed uno slogan circolare da apporre sulla circonferenza di una seconda ro
 ![eccoci]({{ site.github.url }}/assets/img/ezgif.com-video-to-gif-2.gif){:class="img-responsive"}
 
 <br>
-Questi risultati sono stati portati dagli studenti del MontessoriLab al <b>Comune di Chieri</b>, all’attenzione dell' assesore Massimo Gaspardo Moro che ha sposato il progetto e deciso di collaborare con il Techlab e il MontessoriLab nel finanziamento dei due interventi.
+Questi risultati sono stati portati dagli studenti del MontessoriLab al <b>Comune di Chieri</b>, all’attenzione dell' assesore Massimo Gaspardo Moro che ha sposato il progetto e deciso di collaborare con il Techlab nel finanziamento dei due interventi.
 
 ![eccoci]({{ site.github.url }}/assets/img/2017-06-2821.41.10.jpeg){:class="img-responsive"}
 

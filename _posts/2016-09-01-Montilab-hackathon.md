@@ -24,11 +24,7 @@ ed ecco a voi gli elaborati!
 <iframe src="https://player.vimeo.com/video/166939233" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 Anche voi volete essere più seri?
 Da oggi potete, con BeChieri!
-Il vostro bicchiere adatto per prendere caffè e tè, riutilizzabile e ecologico
-Tutti i frequentatori dei distributori di bevande calde potranno usufruire dei bicchieri
-riutilizzabili e personalizzabili, evitando lo spreco di bicchieri monouso.
-La scuola ridurrebbe drasticamente i rifiuti di plastica, e inoltre educherebbe gli
-studenti all’ecologia e ad usare questa prassi anche in altri ambienti.<br>
+Il vostro bicchiere adatto per prendere caffè e tè, riutilizzabile e ecologico!<br>
 [[relazione]]({{ site.github.url }}/assets/img/RelazioneBECHIERI.pdf)
 
 <br>
