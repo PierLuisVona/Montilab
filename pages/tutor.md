@@ -20,7 +20,7 @@ architettura del verde - sostenibilità del progetto <br><br>
 
 <br><br>
 #### Melissa Capello
-dinamiche di gruppo - prevenzione <br><br>
+dinamiche di gruppo - innovazione dei metodi di prevenzione <br><br>
 ![eccoci]({{ site.github.url }}/assets/img/tutorcavagnolo.jpg){:class="img-responsive-left"}
 
 <br><br>
