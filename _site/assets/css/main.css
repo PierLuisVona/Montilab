@@ -244,6 +244,11 @@ blockquote p {
   max-width: 100%;
   height: auto; }
 
+.img-responsive-left {
+  max-width: 100%;
+  height: auto;
+  float: left; }
+
 .site-header {
   z-index: 100;
   min-height: 56px;
