@@ -4,7 +4,7 @@ title:
 ---
 ![maura]({{ site.github.url }}/assets/img/MAURA.JPG){:class="img-responsive"}
 
-È marzo 2014,<br><br>
+È marzo 2014,<br>
 la professoressa Maura Tosco, dal Liceo Augusto Monti di Chieri, ha deciso già da tempo di avviare un'attività di Bookcrossing (un libero scambio di libri) all'interno dell'atrio del Liceo.<br>
 Al momento di comprare una libreria per il progetto ecco l'intuizione!
 >perchè comprare una libreria all'IKEA per la scuola quando a Chieri abbiamo un Techlab?
