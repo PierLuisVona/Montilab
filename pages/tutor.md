@@ -14,7 +14,7 @@ sociologia urbana - mobilità sostenibile - partecipazione <br><br>
 ![eccoci]({{ site.github.url }}/assets/img/tutorbarbero.jpg){:class="img-responsive-left"}
 
 <br><br>
-#### Alessandro Barbero
+#### [Alessandro Barbero](https://www.linkedin.com/in/alessandro-barbero-99429183/)
 architettura del verde - sostenibilità del progetto <br><br>
 ![eccoci]({{ site.github.url }}/assets/img/tutorcapello.jpg){:class="img-responsive-left"}
 
@@ -24,7 +24,7 @@ dinamiche di gruppo - innovazione dei metodi di prevenzione <br><br>
 ![eccoci]({{ site.github.url }}/assets/img/tutorcavagnolo.jpg){:class="img-responsive-left"}
 
 <br><br>
-#### Paolo Cavagnolo
+#### [Paolo Cavagnolo](https://twitter.com/PCavagnolo)
 progettazione strutture - carpenteria - design del processo <br><br>
 ![eccoci]({{ site.github.url }}/assets/img/tutorcerato.jpg){:class="img-responsive-left"}
 
