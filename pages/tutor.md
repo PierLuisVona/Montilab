@@ -24,7 +24,7 @@ dinamiche di gruppo - innovazione dei metodi di prevenzione <br><br>
 ![pol]({{ site.github.url }}/assets/img/tutorcavagnolo.jpg){:class="img-responsive-left"}
 
 <br><br>
-#### [Paolo Cavagnolo](https://twitter.com/PCavagnolo)
+#### [Paolo Cavagnolo](https://github.com/paolocavagnolo)
 progettazione strutture - carpenteria - design del processo <br><br>
 ![lollone]({{ site.github.url }}/assets/img/tutorcerato.jpg){:class="img-responsive-left"}
 
