@@ -59,7 +59,7 @@ Per concludere il progetto, a settembre 2017 gli studenti hanno presentato il lo
 <br>
 ## Valutazione di DICEMBRE
 <br>
-In concomitanza dell'inizio delle vacanze natalizie, la sperimentazione si è conclusa, e noi dell'associazioe siamo stati incaricati dagli uffici comunali di coordinare la fase di valutazione da parte degli studenti del Liceo Monti.
+In concomitanza dell'inizio delle vacanze natalizie, la sperimentazione si è conclusa, e noi dell'associazione siamo stati incaricati dagli uffici comunali di coordinare la fase di valutazione da parte degli studenti del Liceo Monti.<br>
 Ecco a voi il report che abbiamo prodotto!
 
 <div data-configid="32270840/57089121" style="width:100%; height:500px;" class="issuuembed"></div>
