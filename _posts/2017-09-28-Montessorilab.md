@@ -56,3 +56,11 @@ Questi risultati sono stati portati dagli studenti del MontessoriLab al <b>Comun
 Per concludere il progetto, a settembre 2017 gli studenti hanno presentato il loro lavoro a tutti i compagni del Liceo Monti e dell’Istituto Vittone in occasione della presentazione, da parte dei consiglieri comunali, del piano di mobilità sostenibile in sperimentazione presso i due istituti.
 
 ![eccoci]({{ site.github.url }}/assets/img/IMG_2223.jpg){:class="img-responsive"}
+<br>
+## Valutazione di DICEMBRE
+<br>
+In concomitanza dell'inizio delle vacanze natalizie, la sperimentazione si è conclusa, e noi dell'associazioe siamo stati incaricati dagli uffici comunali di coordinare la fase di valutazione da parte degli studenti del Liceo Monti.
+Ecco a voi il report che abbiamo prodotto!
+
+<div data-configid="32270840/57089121" style="width:100%; height:500px;" class="issuuembed"></div>
+<script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
