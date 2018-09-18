@@ -31,6 +31,11 @@ progettazione strutture - carpenteria - design del processo <br><br>
 <br><br>
 #### Lorenzo Cerato
 falegnameria - illustrazioni <br><br>
+![cami]({{ site.github.url }}/assets/img/tutrmanolino.jpg){:class="img-responsive-left"}
+
+<br><br>
+#### Camilla Manolino
+falegnameria - illustrazioni <br><br>
 ![chiara]({{ site.github.url }}/assets/img/tutorviano.jpg){:class="img-responsive-left"}
 
 <br><br>
@@ -39,5 +44,5 @@ architettura senza frontiere - progettazione - revisione delle idee <br><br>
 ![pier]({{ site.github.url }}/assets/img/tutorvona.jpg){:class="img-responsive-left"}
 
 <br><br>
-#### [Pierluigi Vona](https://www.linkedin.com/in/pierluigi-vona-30415812b/)
+#### [Pierluigi Vona](https://www.pierluisvona.it)
 progettazione partecipata - analisi del concept - documentazione <br><br>
