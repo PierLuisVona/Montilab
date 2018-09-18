@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2017<br>MONTESSORILAB"
+title: "2017<br>MONTESSORI LAB"
 author: "Elisa Albarosa"
 categories: documentation
 tags: [documentation,sample]
