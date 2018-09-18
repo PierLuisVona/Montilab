@@ -20,7 +20,7 @@ architettura del verde - sostenibilità del progetto <br><br>
 
 <br><br>
 #### Melissa Capello
-dinamiche di gruppo - innovazione dei metodi di prevenzione <br><br>
+innovazione dei metodi di prevenzione <br><br>
 ![pol]({{ site.github.url }}/assets/img/tutorcavagnolo.jpg){:class="img-responsive-left"}
 
 <br><br>
@@ -31,18 +31,18 @@ progettazione strutture - carpenteria - design del processo <br><br>
 <br><br>
 #### Lorenzo Cerato
 falegnameria - illustrazioni <br><br>
-![cami]({{ site.github.url }}/assets/img/tutrmanolino.jpg){:class="img-responsive-left"}
+![cami]({{ site.github.url }}/assets/img/tutormanolino.jpg){:class="img-responsive-left"}
 
 <br><br>
 #### Camilla Manolino
-falegnameria - illustrazioni <br><br>
+cura delle dinamiche di gruppo <br><br>
 ![chiara]({{ site.github.url }}/assets/img/tutorviano.jpg){:class="img-responsive-left"}
 
 <br><br>
 #### Chiara Viano
-architettura senza frontiere - progettazione - revisione delle idee <br><br>
+architettura senza frontiere - progettazione <br><br>
 ![pier]({{ site.github.url }}/assets/img/tutorvona.jpg){:class="img-responsive-left"}
 
 <br><br>
-#### [Pierluigi Vona](https://www.pierluisvona.it)
+#### [Pierluigi Vona](http://pierluisvona.it)
 progettazione partecipata - analisi del concept - documentazione <br><br>
