@@ -16,6 +16,11 @@ sociologia urbana - mobilità sostenibile - partecipazione <br><br>
 <br><br>
 #### [Alessandro Barbero](https://www.linkedin.com/in/alessandro-barbero-99429183/)
 architettura del verde - sostenibilità del progetto <br><br>
+![simo]({{ site.github.url }}/assets/img/tutorcandeo.jpg){:class="img-responsive-left"}
+
+<br><br>
+#### Simone Candeo
+scneggiature - produzioni video <br><br>
 ![mel]({{ site.github.url }}/assets/img/tutorcapello.jpg){:class="img-responsive-left"}
 
 <br><br>
@@ -26,6 +31,7 @@ innovazione dei metodi di prevenzione <br><br>
 <br><br>
 #### [Paolo Cavagnolo](https://github.com/paolocavagnolo)
 progettazione strutture - carpenteria - design del processo <br><br>
+
 ![lollone]({{ site.github.url }}/assets/img/tutorcerato.jpg){:class="img-responsive-left"}
 
 <br><br>
@@ -36,6 +42,11 @@ falegnameria - illustrazioni <br><br>
 <br><br>
 #### Camilla Manolino
 cura delle dinamiche di gruppo <br><br>
+![ermes]({{ site.github.url }}/assets/img/tutorpiffer.jpg){:class="img-responsive-left"}
+
+<br><br>
+#### Ermes Piffer
+studio di registrazione - colonne sonore <br><br>
 ![chiara]({{ site.github.url }}/assets/img/tutorviano.jpg){:class="img-responsive-left"}
 
 <br><br>

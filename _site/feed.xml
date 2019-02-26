@@ -7,6 +7,21 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>2019&lt;br&gt; MONTICIAK</title>
+				
+				
+					<description>&lt;blockquote&gt;
+  &lt;p&gt;Nietzsche diceva che l’arte ha due facce: quella di Apollo, della bellezza e quella di Dionisio, della perversione. &lt;b&gt;Monticiak é la perfetta sintesi fra queste&lt;/b&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+				
+				<pubDate>Mon, 25 Feb 2019 00:00:00 +0100</pubDate>
+				<link>http://localhost:4000/documentation/Monticiak.html</link>
+				<guid isPermaLink="true">http://localhost:4000/documentation/Monticiak.html</guid>
+			</item>
+		
+			<item>
 				<title>2017&lt;br&gt;MONTESSORI LAB</title>
 				
 				
