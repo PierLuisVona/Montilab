@@ -12,7 +12,7 @@ image:
 In completa sintonia con i precedenti progetti di Montilab, Monticiak si presenta come la risposta del <b>Monti a Hollywood</b>; talento, creatività e spirito di iniziativa sono l’anima del progetto.
 L’edizione del laboratorio MontiLab del 2019 consiste nella creazione di un <b>cortometraggio</b> sul Liceo Monti. I ragazzi della scuola che hanno partecipato dovevano gestire tutti gli aspetti della <b>pre-produzione, produzione e post-produzione.</b> <br><br>
 La prima parte del progetto è stata dedicata alla stesura della <b>sceneggiatura</b>, nella seconda parte quindi i ragazzi si sono divisi i compiti, ciascuno diventando un ingranaggio fondamentale della macchina di Monticiak. <br><br>I gruppi sono stati:
-Scenografia, Fotografia, Cast e Regia.
+Scenografia, Fotografia (e colonna sonora), Cast e Regia.
 
 ### La Scenografia
 si è occupata di gestire gli elementi che erano presenti sulla scena; questo significava decidere quali vestiti dovessero indossare gli attori e gli oggetti che componevano la scena. Hanno fatto parte della troupe : <i>Sofia, Ginevra e Sara.</i>
@@ -41,9 +41,15 @@ ha coordinato tutti i lavori elencati per garantire il buon funzionamento della 
 
 ![eccoci]({{ site.github.url }}/assets/img/regia.jpeg){:class="img-responsive"}
 <br>
+
+### Il corto
+ed ecco a voi finalmente il prodotto conlusivo!
+<br> Buona visione!
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rIFgjO1d2Y0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
-<br>
+### E infine
 <i>Il laboratorio ha permesso ad ognuno di noi di acquisire e scoprire nuove capacità in ambito cinematografico, non solo a livello teorico ma anche mettendole in pratica.<br>
 I gruppi non sono stati una restrizione poiché ognuno ha potuto spaziare tra i vari compiti e dare il proprio contributo portando così a vari e produttivi scambi di opinioni e idee.
-Questo è anche stato favorito dai buoni rapporti creatisi tra i vari componenti del gruppo.
+Questo è anche stato favorito dai buoni rapporti creatisi tra i vari componenti del gruppo.<br><br>
+Grazie ai nostri Tutor! Estremamente pazienti e con entusiasmo ci hanno portato un po' nel mondo del videomaking!
 </i>
